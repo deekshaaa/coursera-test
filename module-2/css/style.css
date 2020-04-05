@@ -1,10 +1,10 @@
 * {
     box-sizing: border-box;
-    font-family: Helvetica;
+    font-family:sans-serif;
 }
 
 body {
-    background-color: #d6d6d6;
+    background-color: white;
 }
 
 h1 {

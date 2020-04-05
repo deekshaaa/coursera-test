@@ -14,7 +14,7 @@ h1 {
 
 section {
     border: 1px solid black;
-    background-color: #b5c4d2;
+    background-color:#FFB6C1;
     margin: 10px;
 }
 
@@ -33,16 +33,17 @@ section>h2 {
 }
 
 section.p1>h2 {
-    background-color: #76b8db;
+    background-color:#7FFFD4;
 }
 
 section.p2>h2 {
-    background-color: #4f7acd;
+    color: #e2e2e2;
+     background-color: #10328a;
+    
 }
 
 section.p3>h2 {
-    color: #e2e2e2;
-    background-color: #10328a;
+    background-color: #00CED1;
 }
 
 section>p {

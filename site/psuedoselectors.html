@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<title>Psuedo selectors </title>
+	<style>
+		header li{
+			list-style: none;
+		}
+		 a:link ,a:visited{
+			text-decoration: none;
+			background-color: green;
+			border:1px solid blue;
+			color: black;
+			display:block;
+			width:200px;
+			margin-bottom: 1px;
+		}
+		a:hover,a:active
+		{
+			background-color: red;
+			color:purple;
+
+		}
+		header li:nth-child(3)
+		{
+			font-size: 24px;
+		}
+		section div:nth-child(odd)
+		{
+			background-color: gray;
+		}
+		section div:nth-child(4):hover
+		{
+			background-color:green;
+			cursor:pointer;
+		}
+		section:hover div:nth-child(5)
+		{
+			font-size: 24px;
+		}
+	</style>
+</head>
+<body>
+	<h1>
+		Psuedo selectors
+	</h1>
+	<header>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="https://www.google.com/" target="_blank">angular js</a></li>
+			<li><a href="https://www.facebook.com/">fan page </a></li>
+
+		</ul>
+	</header>
+	<section>
+		<div>section 1</div>
+		<div>section 2</div>
+		<div>section 3</div>
+		<div>section 4</div>
+		<div>section 5</div>
+		<div>section 6</div>
+		<div>section 7</div>
+		<div>section 8</div>
+		<div>section 9</div>
+		<div>section 10</div>
+		
+	</section>
+
+</body>
+</html>
